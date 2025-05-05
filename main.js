@@ -30,7 +30,7 @@ let n = 10;
 let a = 0;
 let b = 1;
 
-for (let i = 2; i < n; i++) {
+for (let i = 0; i < n; i++) {
   let total = a + b;
   console.log(total);
   a = b;
